@@ -25,7 +25,7 @@ export default function AchievementCard({
         borderRight: !isMobile && showBorder ? "1px solid #1a1a1a" : "none",
         borderBottom: isMobile && showBorder ? "1px solid #1a1a1a" : "none"
       }}
-      className="w-[292px] h-[145px] flex items-center text-[#1A1A1A] md:w-[384px] md:h-[112px]"
+      className="w-[292px] h-[145px] flex items-center text-black md:w-[420px] md:h-[112px]"
     >
       <div
         style={{ backgroundColor: imageBackgroundColor }}

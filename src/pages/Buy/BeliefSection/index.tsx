@@ -10,7 +10,7 @@ export default function BeliefSection() {
   const isMobile = !(lg || xl || xxl);
 
   return (
-    <div className="w-full h-[1000px] z-10 relative bg-white md:z-0 md:h-[600px] border-b-[#1A1A1A] border-b flex flex-col md:flex md:flex-row items-center md:justify-center">
+    <div className="w-full h-[1000px] z-10 relative bg-white md:z-0 md:h-[600px] border-b-black border-b flex flex-col md:flex md:flex-row items-center md:justify-center">
       <div className="mt-16 w-[330px] text-center md:text-left">
         <div>We believe</div>
         <div className="text-2xl md:text-4xl font-semibold mt-2">
@@ -25,7 +25,7 @@ export default function BeliefSection() {
           backgroundColor="#EDE9FF"
         />
       ) : (
-        <div className="border border-[#1A1A1A] rounded-md bg-[#EDE9FF] flex items-center mt-0 w-[736px] h-[355px] rotate-[-7deg] ">
+        <div className="border border-black rounded-md bg-gray flex items-center mt-0 w-[736px] h-[355px] rotate-[-7deg] ">
           <div className="w-full h-[180px] md:w-[330px] bg-[url('assets/images/sustainability-sm.png')] md:h-[315px] md:ml-5 bg-no-repeat bg-cover md:bg-[url('assets/images/sustainability-lg.png')]" />
           <div className="p-6 pl-5 pr-5 md:ml-9 md:p-0">
             <div className="font-semibold text-lg md:text-xl">
@@ -51,7 +51,7 @@ export default function BeliefSection() {
           backgroundColor="#E8FFA8"
         />
       ) : (
-        <div className="w-[333px] h-[355px] border border-[#1A1A1A] rounded-md -ml-14 bg-[#E8FFA8] rotate-[8.5deg] flex items-center">
+        <div className="w-[333px] h-[355px] border border-black rounded-md -ml-14 bg-yellow rotate-[8.5deg] flex items-center">
           <div className="bg-no-repeat bg-cover text-xl text-white font-semibold w-[290px] h-[315px] ml-5  bg-[url('assets/images/do-some-good-lg.png')] flex justify-center items-center">
             <div>Do some good</div>
           </div>

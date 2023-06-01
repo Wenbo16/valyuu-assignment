@@ -17,7 +17,7 @@ export default function MobileCard({
   return (
     <div
       style={{ background: backgroundColor }}
-      className="w-[335px] h-[373px] mt-6 border border-[#1A1A1A] rounded-md"
+      className="w-[335px] h-[373px] mt-6 border border-black rounded-md"
     >
       <div className={`w-full h-[180px] bg-no-repeat bg-cover`}>
         <img src={imgUrl} alt="" />
