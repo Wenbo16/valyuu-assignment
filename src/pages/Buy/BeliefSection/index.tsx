@@ -10,10 +10,10 @@ export default function BeliefSection() {
   const isMobile = !(lg || xl || xxl);
 
   return (
-    <div className="w-full md:h-[512px] flex flex-col md:flex md:flex-row items-center justify-center">
+    <div className="w-full h-[1000px] z-10 relative bg-white md:z-0 md:h-[600px] border-b-[#1A1A1A] border-b flex flex-col md:flex md:flex-row items-center md:justify-center">
       <div className="mt-16 w-[330px] text-center md:text-left">
         <div>We believe</div>
-        <div className="text-2xl md:text-4xl font-semibold">
+        <div className="text-2xl md:text-4xl font-semibold mt-2">
           Save planet is something everyone can do
         </div>
       </div>
